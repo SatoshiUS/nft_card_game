@@ -46,7 +46,7 @@ export default {
   etherscan: {
     // Your API key for Etherscan
     // Obtain one at https://etherscan.io/
-    apiKey: "W1G7WP6ZER1696K95GPIXJ6N3SX5U7WGY6"
+    apiKey: process.env.SCAN_API_KEY
   },
 }
 
